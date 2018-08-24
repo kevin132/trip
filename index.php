@@ -86,6 +86,7 @@
 <main>
     <section id="trip">
         <div class="container">
+            <h2 id="trip-title">Les bons plans de voyages</h2>
             <div class="col-lg-3">
                 <img src="assets/image/shanghai-voyage.jpg" class="w-100" alt="">
             </div>
