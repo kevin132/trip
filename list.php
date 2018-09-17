@@ -2,5 +2,5 @@
 
 if (isset($_POST['submit'])) {
     $name=$_POST['name'];
-    echo "je m'appelle {$name}";
+    echo "je m'appelle $name";
 }

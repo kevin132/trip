@@ -25,8 +25,14 @@ $(document).ready(function (e) {
 let day = new Date();
 let today = day.toISOString().substr(0, 10);
 document.querySelector("#reservation_start").value = today;
-let tomorrow = day.setDate(day.getDate()+1);
+let tomorrow = day.setDate(day.getDate()+2);
 tomorrow = new Date(tomorrow).toISOString().substr(0, 10);
 document.querySelector("#reservation_back").value = tomorrow;
 
+
+let buttonDefault = document.querySelector('button');
+buttonDefault.addEventListener("click", function (e) {
+    e.preventDefault();
+
+})
 
